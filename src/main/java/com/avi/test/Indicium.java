@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Scanner;
 
+import static com.avi.test.Vestigium.isContainDuplicatesInRow;
+
 public class Indicium {
 
 	/*
@@ -13,7 +15,7 @@ public class Indicium {
 	 */
 	public static void main(String[] args) {
 		String[] rowRead;
-		String[][] charArr;
+		String[][] charArr = new String[0][];
 		Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
 		int t = in.nextInt(); // Scanner has functions to read ints, longs, strings, chars, etc.
 		for (int i = 1; i <= t; ++i) {

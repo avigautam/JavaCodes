@@ -26,10 +26,10 @@ public class AutomaticAssignmentOfResource {
 		return false;
 	}
 	
-	public static int lessIndex(int a[], int index, int sum) {
+/*	public static int lessIndex(int a[], int index, int sum) {
 		if(a[index]<sum) return index;
 		
-	}
+	}*/
 	public static void printArray(int a[]) {
 		Arrays.stream(a).forEach(s -> System.out.print(s + ","));
 		System.out.println();
