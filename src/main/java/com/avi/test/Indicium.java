@@ -22,7 +22,7 @@ public class Indicium {
 			int N = in.nextInt();
 			
 
-			System.out.println("Case #" + i + ": " + isContainDuplicatesInRow(charArr, N));
+			//System.out.println("Case #" + i + ": " + isContainDuplicatesInRow(charArr, N));
 		}
 	}
 

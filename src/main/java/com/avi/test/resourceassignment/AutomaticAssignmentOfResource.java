@@ -28,6 +28,7 @@ public class AutomaticAssignmentOfResource {
 	
 /*	public static int lessIndex(int a[], int index, int sum) {
 		if(a[index]<sum) return index;
+		return 0;
 		
 	}*/
 	public static void printArray(int a[]) {
